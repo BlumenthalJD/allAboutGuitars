@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/desktop.css">
+		<title>Sitemap</title>
+	</head>
+	<body>
+		<div id="logo">
+			<a href="index.html"><img align="left"src="images/guitar%20logo.jpg" alt="guitar%20logo" width="350" height="150"></a>
+			All About Guitars
+		</div>
+		<div id="links">
+			<ul style="list-style-type: none">
+				<li><a href="index.html"><h2>Home</h2></a></li>
+				<li><a href="history.html"><h2>History</h2></a></li>
+				<li><a href="types.html"><h2>Guitar Types</h2></a></li>
+				<li><a href="users.html"><h2>Celebrity Users</h2></a></li>
+				<li><a href="music.html"><h2>Ideal Music</h2></a></li>
+				<li><a href="sitemap.html" onclick="sitemap()"><h2>Sitemap</h2></a></li>
+				<li><a href="about.html"><h2>About</h2></a></li>
+				<li><a href="contact.html"><h2>Contact Us</h2></a></li>
+				<li><a href="location.html"><h2>Location</h2></a></li>
+				<li><a href="references.html"><h2>References</h2></a></li>
+				<li><a href="development.html"><h2>Web Development</h2></a></li>
+			</ul>
+		</div>
+	<h1 style="text-align: center; color: white">Sitemap</h1>
+	<form name="jump">
+		<p align="center">
+			<select name="menu">
+				<option selected value="index.html">Home</option>
+				<option value="history.html">History</option>
+				<option value="types.html">Guitar Types</option>
+				<option value="users.html">Celebrity Users</option>
+				<option value="music.html">Ideal Music</option>
+				<option value="about.html">About</option>
+				<option value="contact.html">Contact Us</option>
+				<option value="location.html">Location</option>
+				<option value="references.html">References</option>
+				<option value="development.html">Web Development</option>
+			</select>
+			<input type="button" size="" onclick="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="Go">
+		</p>
+	</form>
+	</body>
+</html>
