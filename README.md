@@ -1,2 +1,2 @@
 # allAboutGuitars
-This is my final project for CSCI 106 (Intro to Web Development).
+Informational website about guitars and their history.
